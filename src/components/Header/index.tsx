@@ -9,7 +9,9 @@ export function Header() {
   return (
     <HeaderContainer>
       <div className="container">
-        <img src={coffeeLogoImg} alt="Logo" />
+        <NavLink to="/">
+          <img src={coffeeLogoImg} alt="" />
+        </NavLink>
 
         <HeaderButtonsContainer>
           <HeaderButton variant="purple">

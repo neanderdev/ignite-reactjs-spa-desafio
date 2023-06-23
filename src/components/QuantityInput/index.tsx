@@ -4,11 +4,11 @@ import { IconWrapper, QuantityInputContainer } from './styles'
 
 interface QuantityInputProps {
   size?: 'medium' | 'small'
-  quantity: number
+  quantity?: number
 }
 
 export function QuantityInput({
-  quantity,
+  quantity = 1,
   size = 'medium',
 }: QuantityInputProps) {
   return (
