@@ -1,3 +1,11 @@
+import { CompleteOrderForm } from './components/CompleteOrderForm'
+
+import { CompleteOrderContainer } from './styles'
+
 export function CompleteOrderPage() {
-  return <h1>Complete order</h1>
+  return (
+    <CompleteOrderContainer className="container">
+      <CompleteOrderForm />
+    </CompleteOrderContainer>
+  )
 }
